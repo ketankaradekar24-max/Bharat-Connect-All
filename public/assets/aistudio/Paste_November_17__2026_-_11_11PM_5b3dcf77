@@ -1,0 +1,1261 @@
+# MASTER DEVELOPMENT PROMPT — BHARAT CONNECT
+## Build a Real, Scalable, Student-Focused Scholarship & Education Platform for India
+
+Act as a world-class product architect, senior full-stack developer, UI/UX designer, software engineer, cybersecurity engineer, SEO strategist, growth strategist and startup product advisor.
+
+Your task is to transform my existing project, **Bharat Connect**, into a professional, useful, scalable and publicly accessible platform that can serve students across India.
+
+Do not treat this as an ordinary college project.
+
+Think like you are building an actual education technology startup that people will discover, trust, use regularly and recommend to others.
+
+I want to become the founder/co-founder of this platform and build a recognizable brand around it.
+
+Your responsibility is to improve the existing project, complete missing functionality, identify technical weaknesses, implement useful features and prepare the platform for real users.
+
+---
+
+# 1. PRODUCT IDENTITY
+
+**Product name:** Bharat Connect
+
+**Product category:** Education Technology / Scholarship Discovery / Student Assistance Platform
+
+**Primary market:** India
+
+**Initial launch market:** Karnataka
+
+**Expansion:** All Indian states and union territories.
+
+**Primary audience:**
+- School students.
+- PUC students.
+- Undergraduate students.
+- Postgraduate students.
+- Diploma students.
+- Engineering students.
+- Medical students.
+- Polytechnic students.
+- Students from rural areas.
+- Students from economically weaker backgrounds.
+- Students looking for government and private scholarships.
+- Parents and guardians.
+- Educational institutions.
+
+## Product vision
+
+Bharat Connect should become a centralized student-support platform where students can discover opportunities, understand educational requirements, connect with useful resources and manage important academic activities.
+
+The main goal is to reduce the difficulty students face when finding genuine opportunities and understanding how to access them.
+
+The platform must be useful to ordinary students, not just technically impressive.
+
+## Brand positioning
+
+Bharat Connect should communicate:
+
+- Opportunities for every student.
+- Reliable scholarship information.
+- Accessible education resources.
+- Simple guidance.
+- Equal access to information.
+- Student community and collaboration.
+
+Suggested tagline:
+
+**"Connecting Students to Opportunities."**
+
+Alternative:
+
+**"Discover Opportunities. Build Your Future."**
+
+Choose a strong brand direction and maintain consistency throughout the website.
+
+---
+
+# 2. IMPORTANT PRODUCT RULES
+
+The platform must be honest and trustworthy.
+
+Bharat Connect is an independent platform.
+
+Do not claim:
+- Government ownership.
+- Government approval.
+- Official NSP or SSP partnership.
+- Guaranteed scholarship approval.
+- Guaranteed financial assistance.
+
+Do not publish fake scholarship information.
+
+Every scholarship must have:
+- Official source.
+- Official application URL.
+- Provider name.
+- Eligibility details.
+- Benefits where verified.
+- Application deadline where verified.
+- Verification status.
+- Last verification date.
+
+If information is missing, display that it is unverified or incomplete.
+
+Never collect:
+- Aadhaar numbers unnecessarily.
+- OTPs.
+- Bank passwords.
+- Government portal passwords.
+
+Do not claim that the platform can automatically track applications on external portals unless a genuine authorized integration exists.
+
+---
+
+# 3. FIRST: AUDIT THE EXISTING PROJECT
+
+Before writing or modifying code, inspect the complete existing project.
+
+Do not recreate the project from scratch.
+
+Existing technology stack:
+
+### Frontend
+- React.
+- TypeScript.
+- Vite.
+- Tailwind CSS.
+- Lucide React.
+
+### Backend
+- Python.
+- Flask.
+- Flask REST API.
+- SQLAlchemy.
+- Flask-Migrate.
+- Flask-JWT-Extended.
+- Flask-Mail.
+- Flask-Limiter.
+- Flask-CORS.
+
+### Database
+- MySQL 8.
+
+### Deployment
+- Vercel frontend.
+- Managed Flask backend.
+- Managed MySQL database.
+
+Current implementation includes:
+- Authentication.
+- Student profile.
+- Scholarship discovery.
+- Search.
+- Basic eligibility matching.
+- Saved scholarships.
+- Application tracking.
+- Admin scholarship management.
+- Notifications.
+
+The frontend production build has succeeded.
+
+The backend has successfully connected to MySQL.
+
+The initial migration has been applied.
+
+Eight backend tests passed in the previous test run.
+
+However, the scholarship table was empty, and successful student registration and the complete admin workflow had not yet been confirmed.
+
+These are known development facts, not proof that every feature is complete.
+
+## Audit requirements
+
+Inspect:
+- All frontend files.
+- All backend files.
+- Database models.
+- Database migrations.
+- API endpoints.
+- Authentication.
+- Authorization.
+- Environment configuration.
+- Frontend routing.
+- API communication.
+- Responsive layouts.
+- Existing tests.
+- Deployment configuration.
+
+Create a development audit report identifying:
+
+1. Completed functionality.
+2. Partially completed functionality.
+3. Missing functionality.
+4. Broken functionality.
+5. Security risks.
+6. Performance problems.
+7. Database issues.
+8. UI/UX weaknesses.
+9. Recommended improvements.
+
+Do not modify working functionality without a reason.
+
+---
+
+# 4. MAIN WEBSITE STRUCTURE
+
+Create a professional public-facing website.
+
+The platform should have two distinct experiences:
+
+A. Public website for visitors and students.
+
+B. Authenticated student/admin application.
+
+## Public navigation
+
+- Home.
+- Scholarships.
+- Education Resources.
+- Opportunities.
+- Student Community.
+- About Us.
+- Contact.
+- Login.
+- Register.
+
+Keep the navigation simple, accessible and responsive.
+
+## Public homepage
+
+Create a strong homepage containing:
+
+### Section 1: Hero
+
+Headline:
+
+"Your Future Deserves Better Opportunities."
+
+Supporting text:
+
+"Discover scholarships, explore educational opportunities and access useful resources to move closer to your goals."
+
+Buttons:
+- Explore Scholarships.
+- Join Bharat Connect.
+
+Include a professional visual representing students, learning, opportunity and education.
+
+### Section 2: Platform statistics
+
+Show actual platform data:
+- Verified scholarships.
+- Available opportunities.
+- Registered students.
+- Scholarship categories.
+- Participating institutions, only when actual partnerships exist.
+
+Do not fabricate numbers.
+
+### Section 3: Scholarship discovery
+
+Show recently verified scholarships.
+
+Include:
+- Scholarship title.
+- Provider.
+- Benefits.
+- Deadline.
+- Eligibility summary.
+- View details.
+
+### Section 4: How Bharat Connect works
+
+Explain:
+
+1. Create your account.
+2. Complete your student profile.
+3. Discover relevant opportunities.
+4. Understand eligibility.
+5. Apply through official websites.
+6. Track your progress.
+
+### Section 5: Explore by education level
+
+- School.
+- PUC.
+- Diploma.
+- Undergraduate.
+- Postgraduate.
+- Professional courses.
+
+### Section 6: Explore by category
+
+- Government scholarships.
+- State scholarships.
+- Central scholarships.
+- Private scholarships.
+- Merit-based scholarships.
+- Need-based scholarships.
+- Minority scholarships, where applicable.
+- Disability-related scholarships, where applicable.
+
+### Section 7: Student benefits
+
+Explain how the platform saves time and makes scholarship information easier to understand.
+
+### Section 8: Student stories
+
+Only publish genuine stories with permission.
+
+Never generate fake testimonials.
+
+### Section 9: FAQ
+
+Include questions about:
+- Scholarship eligibility.
+- Registration.
+- Required documents.
+- Official application websites.
+- Scholarship deadlines.
+- Application tracking.
+- Account security.
+
+### Section 10: Footer
+
+Include:
+- About.
+- Contact.
+- Privacy Policy.
+- Terms of Service.
+- Disclaimer.
+- Help Center.
+- Social media links.
+- Founder/co-founder information.
+
+---
+
+# 5. SCHOLARSHIP DISCOVERY ENGINE
+
+This is the core product feature.
+
+Students must be able to discover scholarships easily.
+
+## Search
+
+Support searching by:
+- Scholarship name.
+- Provider.
+- Department.
+- Education level.
+- Course.
+- Description.
+- State.
+
+## Filters
+
+- State.
+- District, when relevant.
+- Education level.
+- Course.
+- Category.
+- Family income.
+- Academic marks.
+- Scholarship type.
+- Deadline.
+- Government/private provider.
+
+## Scholarship cards
+
+Display:
+- Title.
+- Provider.
+- Description.
+- Scholarship benefits.
+- Deadline.
+- Eligibility summary.
+- Verification status.
+- Official application link.
+
+## Scholarship detail page
+
+Provide a complete explanation in simple language.
+
+Sections:
+- Overview.
+- Who can apply.
+- Eligibility.
+- Financial benefits.
+- Required documents.
+- Application procedure.
+- Important dates.
+- Official application link.
+- Official source.
+- Last verified date.
+
+Use plain language so that students who are not technically experienced can understand everything.
+
+## Scholarship data management
+
+Develop an admin workflow to:
+- Add.
+- Edit.
+- Verify.
+- Publish.
+- Reject.
+- Unpublish.
+- Archive expired scholarships.
+
+Only verified and published records should appear in normal student discovery.
+
+---
+
+# 6. INTELLIGENT ELIGIBILITY MATCHING
+
+Develop a rule-based scholarship matching engine first.
+
+Use:
+- Education level.
+- Course.
+- State.
+- Institution.
+- Academic year.
+- Marks.
+- Family income.
+- Category.
+- Other verified mandatory criteria.
+
+Display three outcomes:
+
+1. Potentially eligible.
+2. Not eligible.
+3. Insufficient information.
+
+Explain why a scholarship matches.
+
+Show missing information.
+
+Never guarantee eligibility.
+
+Do not display fake AI-generated match scores.
+
+Later, consider machine-learning recommendations only when there is enough reliable data and a measurable benefit.
+
+---
+
+# 7. STUDENT DASHBOARD
+
+Create a professional personalized dashboard.
+
+Display:
+
+- Welcome message.
+- Profile completion.
+- Recommended scholarships.
+- Recently added opportunities.
+- Saved scholarships.
+- Upcoming deadlines.
+- Application tracker.
+- Notifications.
+- Student resources.
+- Recommended next steps.
+
+The dashboard should help users decide what to do next.
+
+Do not overload the screen.
+
+---
+
+# 8. STUDENT PROFILE
+
+Allow students to create profiles with:
+
+Personal:
+- Name.
+- Email.
+- State.
+- District.
+- Relevant demographic criteria, only when needed.
+
+Academic:
+- Education level.
+- Course.
+- Institution.
+- Academic year.
+- Marks percentage.
+
+Financial:
+- Annual family income.
+
+Allow profile updates.
+
+Show missing information.
+
+Protect student data and follow data-minimization principles.
+
+---
+
+# 9. APPLICATION TRACKER
+
+Students should be able to track scholarships they are interested in.
+
+Statuses:
+- Interested.
+- Preparing Documents.
+- Ready to Apply.
+- Applied.
+- Under Review.
+- Approved.
+- Rejected.
+- Closed.
+
+Features:
+- Add scholarship.
+- Update status.
+- Add notes.
+- View status history.
+- View deadlines.
+- Remove tracked records.
+
+Status must be manually maintained unless an authorized external integration exists.
+
+---
+
+# 10. STUDENT COMMUNITY — MAKE PEOPLE INTERACT
+
+This is an important growth feature.
+
+Bharat Connect should not feel like a static scholarship directory.
+
+Develop a moderated student community where users can learn and help one another.
+
+## Community features
+
+### A. Discussion forum
+
+Students can:
+- Ask questions.
+- Share useful educational information.
+- Discuss scholarship application procedures.
+- Share learning resources.
+- Discuss college-related topics.
+- Answer questions.
+
+### B. Discussion categories
+
+- Scholarships.
+- Engineering.
+- Medical.
+- PUC.
+- Degree.
+- Diploma.
+- Competitive Exams.
+- Career Guidance.
+- Study Resources.
+- General Student Discussions.
+
+### C. Interactions
+
+Allow:
+- Comments.
+- Replies.
+- Likes or helpful votes.
+- Bookmarks.
+- Reporting inappropriate content.
+- Following discussions.
+
+### D. Student profiles
+
+Allow students to display:
+- Display name.
+- Education level.
+- General academic interests.
+- Helpful contributions.
+
+Never publicly expose sensitive profile information.
+
+### E. Moderation
+
+Implement:
+- Report system.
+- Spam protection.
+- Admin moderation.
+- Content removal.
+- User suspension when necessary.
+- Community guidelines.
+
+Do not create fake student accounts, fake discussions or fake engagement.
+
+The objective is genuine interaction.
+
+---
+
+# 11. EDUCATION RESOURCE CENTER
+
+Build a useful educational resource section.
+
+Organize resources by subject and education level.
+
+Possible categories:
+
+### Programming
+- Python.
+- C.
+- C++.
+- Java.
+- JavaScript.
+
+### Computer Science
+- Data Structures and Algorithms.
+- DBMS.
+- Operating Systems.
+- Computer Networks.
+- Software Engineering.
+- Web Development.
+- Artificial Intelligence.
+- Data Science.
+
+### Academic resources
+- Study notes.
+- Learning guides.
+- Interview preparation.
+- Practice questions.
+- Project guidance.
+- Exam preparation.
+
+### Career resources
+- Resume preparation.
+- Internship guidance.
+- Placement preparation.
+- Interview practice.
+- Career roadmaps.
+- Skills development.
+
+Only publish resources that are useful and legally distributable.
+
+Prefer original guides and links to reputable educational resources.
+
+Do not copy copyrighted textbooks or course materials without permission.
+
+---
+
+# 12. OPPORTUNITIES AND CAREER SECTION
+
+Create a separate opportunities page.
+
+Include:
+
+- Internships.
+- Student competitions.
+- Hackathons.
+- Coding competitions.
+- Research opportunities.
+- Workshops.
+- Scholarships.
+- Fellowship programs.
+- Career development programs.
+
+Each listing must have:
+- Organization.
+- Description.
+- Eligibility.
+- Deadline.
+- Official application URL.
+- Source URL.
+- Verification date.
+
+Expired opportunities must be clearly marked.
+
+---
+
+# 13. NOTIFICATIONS AND DEADLINE REMINDERS
+
+Build useful notifications.
+
+Examples:
+- A new matching scholarship is published.
+- An application deadline is approaching.
+- A saved opportunity is updated.
+- A discussion receives a reply.
+- An administrator publishes an important announcement.
+
+Allow students to control notification preferences.
+
+Support in-app notifications first.
+
+Email notifications can be added with a properly configured provider.
+
+Never claim an email was delivered when it was only queued.
+
+---
+
+# 14. ADMINISTRATOR DASHBOARD
+
+Build a secure administration interface.
+
+Admin capabilities:
+
+- View platform statistics.
+- Manage scholarship records.
+- Verify official sources.
+- Manage opportunities.
+- Manage educational resources.
+- Moderate discussions.
+- Review reports.
+- Manage inappropriate content.
+- Manage announcements.
+- View user activity at an appropriate privacy level.
+
+Protect all admin operations using server-side authorization.
+
+Maintain audit logs for important changes.
+
+---
+
+# 15. FOUNDER / CO-FOUNDER BRAND IDENTITY
+
+I want to establish myself as the founder/co-founder of Bharat Connect.
+
+Build a professional About Us page with a dedicated founder/co-founder section.
+
+Include editable fields for:
+
+- Founder/co-founder name.
+- Profile photograph.
+- Role.
+- Short biography.
+- Vision for Bharat Connect.
+- Professional profile links.
+- Contact or official social links.
+
+Do not invent my achievements, educational qualifications or biography.
+
+Use editable placeholders until I provide the exact details.
+
+The brand should feel like a serious independent startup.
+
+Create:
+- Consistent brand identity.
+- Professional logo direction.
+- Brand color palette.
+- Typography system.
+- Social media identity.
+- Official contact email configuration.
+- Brand guidelines.
+
+Do not display private personal contact details.
+
+The founder/co-founder identity should be presented professionally, not as a distracting advertisement.
+
+---
+
+# 16. SEO — INCREASE ORGANIC WEBSITE VIEWS
+
+I want Bharat Connect to be discoverable through Google and other search engines.
+
+Build a real SEO foundation.
+
+## Technical SEO
+
+- Semantic HTML.
+- Page-specific titles.
+- Meta descriptions.
+- Canonical URLs.
+- XML sitemap.
+- Robots.txt.
+- Open Graph metadata.
+- Social sharing previews.
+- Structured data where appropriate.
+- Search-engine-friendly URLs.
+- Proper heading hierarchy.
+- Mobile-friendly pages.
+- Fast loading.
+- Accessible content.
+
+## Scholarship SEO
+
+Every public scholarship detail page should have:
+- Unique title.
+- Unique description.
+- Search-friendly URL.
+- Relevant scholarship keywords.
+- Accurate eligibility details.
+- Official source references.
+- Updated verification date.
+
+## Educational SEO
+
+Create useful, original articles such as:
+
+- How to find scholarships in Karnataka.
+- How to understand SSP scholarship eligibility.
+- How to apply for scholarships through official portals.
+- Common scholarship application mistakes.
+- Documents commonly required for scholarships.
+- Scholarship guidance for PUC students.
+- Scholarship guidance for engineering students.
+- How to prepare for internships.
+- Career roadmaps for computer science students.
+
+Every article must be fact-checked.
+
+Do not generate hundreds of low-quality AI pages.
+
+Do not use keyword stuffing.
+
+Do not create fake scholarship pages to attract traffic.
+
+---
+
+# 17. GROWTH AND STUDENT ACQUISITION STRATEGY
+
+The objective is to grow genuine website visitors and active users.
+
+Implement product features that encourage useful repeat visits.
+
+## Growth channels
+
+Prepare the platform for:
+
+- Instagram.
+- YouTube.
+- LinkedIn.
+- Student WhatsApp communities.
+- Telegram student communities.
+- College clubs.
+- Student associations.
+- Educational institutions.
+- Student ambassadors.
+
+Create shareable scholarship pages.
+
+Allow students to share verified opportunities through:
+- WhatsApp.
+- Telegram.
+- Instagram-compatible share links.
+- Copy link.
+- Other native sharing options.
+
+Never automatically message people or add them to groups.
+
+## Referral system
+
+Consider a transparent referral system.
+
+Students may share their referral link with friends.
+
+Prevent:
+- Fake accounts.
+- Automated signups.
+- Spam.
+- Referral abuse.
+
+Do not offer misleading financial rewards.
+
+## Student ambassador program
+
+Build a future-ready program for:
+- College ambassadors.
+- Campus representatives.
+- Student volunteers.
+
+Provide clear participation guidelines.
+
+Do not claim official partnerships before agreements exist.
+
+## Content marketing
+
+Create a manageable content strategy around:
+- New verified scholarships.
+- Deadline reminders.
+- Student education guides.
+- Career opportunities.
+- Practical student advice.
+
+Measure whether content generates useful visits and actual registrations.
+
+---
+
+# 18. ANALYTICS AND PRODUCT IMPROVEMENT
+
+Build an internal analytics dashboard.
+
+Track privacy-respectful metrics:
+
+- Website visitors.
+- Unique visitors.
+- Scholarship page views.
+- Search queries.
+- Search result clicks.
+- Registration completion rate.
+- Active users.
+- Saved scholarships.
+- Application tracker usage.
+- Community participation.
+- Referral traffic.
+- Returning visitors.
+
+Distinguish:
+- Page views.
+- Unique visitors.
+- Registered users.
+- Active users.
+
+Do not present these as the same metric.
+
+Use privacy-conscious analytics.
+
+Do not expose individual student behavior publicly.
+
+Create an admin analytics dashboard based on real events.
+
+Use analytics to understand:
+- Which scholarships are popular.
+- Which searches return no results.
+- Where users leave the registration flow.
+- Which pages attract visitors.
+- Which features students actually use.
+
+---
+
+# 19. SECURITY AND PRIVACY
+
+Implement:
+
+- Secure password hashing.
+- JWT authentication.
+- Role-based access.
+- Rate limiting.
+- Input validation.
+- SQL injection protection.
+- CORS restrictions.
+- Secure environment configuration.
+- Safe error responses.
+- Admin audit logs.
+- Privacy controls.
+
+For sensitive document uploads, implement private storage, access control, file validation, malware scanning and retention/deletion policies before enabling uploads.
+
+Create:
+- Privacy Policy.
+- Terms of Service.
+- Cookie/analytics disclosures where applicable.
+- Community Guidelines.
+- Scholarship disclaimer.
+- Contact and support information.
+
+Follow applicable Indian data protection requirements, including relevant obligations under the Digital Personal Data Protection framework.
+
+Do not claim legal compliance without an actual review.
+
+---
+
+# 20. TECHNICAL ARCHITECTURE
+
+Preserve the current stack unless there is a strong technical reason to change it.
+
+Frontend:
+React + TypeScript + Vite + Tailwind CSS + Lucide React.
+
+Backend:
+Flask REST API + SQLAlchemy + JWT + Flask-Migrate.
+
+Database:
+MySQL 8.
+
+Additional infrastructure:
+- Redis for production rate limiting.
+- Email service for notifications.
+- Private object storage if document upload is implemented.
+- Analytics service or privacy-conscious internal event tracking.
+
+Keep the application modular.
+
+Separate:
+- Authentication.
+- Student profiles.
+- Scholarships.
+- Eligibility.
+- Applications.
+- Community.
+- Resources.
+- Opportunities.
+- Notifications.
+- Administration.
+- Analytics.
+
+Use clean APIs and database relationships.
+
+Do not put all application logic in one huge file.
+
+---
+
+# 21. REQUIRED DATABASE EXTENSIONS
+
+Inspect the existing schema before adding tables.
+
+Potential additional tables:
+
+- `community_post`
+- `community_comment`
+- `community_reaction`
+- `community_report`
+- `community_follow`
+- `education_resource`
+- `opportunity`
+- `announcement`
+- `user_notification_preferences`
+- `analytics_event`
+- `referral`
+- `admin_audit_log`
+- `content_category`
+
+Add only the tables required by implemented features.
+
+Use appropriate foreign keys, indexes and unique constraints.
+
+Use migrations.
+
+---
+
+# 22. PERFORMANCE AND ACCESSIBILITY
+
+Ensure:
+- Fast page loading.
+- Optimized images.
+- Lazy loading where useful.
+- Efficient API queries.
+- Pagination.
+- Database indexing.
+- Caching where appropriate.
+- Good mobile performance.
+- Keyboard navigation.
+- Accessible forms.
+- Proper screen-reader labels.
+- Good contrast.
+
+Avoid unnecessary third-party scripts.
+
+Do not introduce expensive infrastructure before there is a real need.
+
+---
+
+# 23. TESTING REQUIREMENTS
+
+Test all major user journeys.
+
+### Student journey
+
+1. Visit homepage.
+2. Explore scholarships.
+3. Register.
+4. Log in.
+5. Complete profile.
+6. Find relevant scholarships.
+7. Save opportunities.
+8. Open official application portal.
+9. Track application.
+10. Receive notification.
+11. Participate in the community.
+
+### Admin journey
+
+1. Log in securely.
+2. Open admin dashboard.
+3. Add scholarship.
+4. Verify official source.
+5. Publish scholarship.
+6. Confirm student discovery.
+7. Moderate community content.
+8. Review analytics.
+
+### Growth journey
+
+1. Open a public scholarship page.
+2. Share the link.
+3. Another student visits.
+4. Student discovers useful information.
+5. Student registers.
+6. Student returns for new opportunities.
+
+Test:
+- Desktop.
+- Mobile.
+- Tablet.
+- Slow network.
+- Empty database.
+- Invalid data.
+- Unauthorized access.
+- Expired tokens.
+- Rate limiting.
+- Database failures.
+
+Never claim success without actual testing.
+
+---
+
+# 24. DEPLOYMENT AND PUBLIC LAUNCH
+
+Prepare for:
+
+- Frontend deployment on Vercel.
+- Backend deployment on a production Python host.
+- Managed MySQL.
+- Production Redis.
+- HTTPS.
+- Custom domain.
+- DNS.
+- Environment variables.
+- Error monitoring.
+- Database backups.
+- Analytics.
+- Search Console.
+- Sitemap submission.
+
+Do not expose development servers publicly.
+
+Do not publish the platform until critical security, authentication and data accuracy checks are complete.
+
+---
+
+# 25. DEVELOPMENT PRIORITIES
+
+Implement in this order.
+
+## Priority 1 — Complete the current application
+
+- Finish registration.
+- Finish login.
+- Confirm admin bootstrap.
+- Test student dashboard.
+- Fix API errors.
+- Test database persistence.
+- Fix existing frontend/backend issues.
+
+## Priority 2 — Launch scholarship discovery properly
+
+- Add verified scholarship data.
+- Test search.
+- Test filters.
+- Test eligibility.
+- Test admin verification.
+- Test publication.
+
+## Priority 3 — Improve student experience
+
+- Improve homepage.
+- Improve dashboard.
+- Improve scholarship details.
+- Improve responsive design.
+- Add notifications.
+- Improve empty states.
+
+## Priority 4 — Add useful engagement
+
+- Community discussions.
+- Comments and replies.
+- Educational resources.
+- Opportunities.
+- Announcements.
+
+## Priority 5 — Establish the brand
+
+- About Us.
+- Founder/co-founder profile.
+- Brand identity.
+- Contact.
+- Social links.
+- Public documentation.
+
+## Priority 6 — Grow the platform
+
+- SEO.
+- Shareable pages.
+- Content strategy.
+- Student ambassadors.
+- Referral system.
+- Analytics.
+
+## Priority 7 — Production launch
+
+- Security review.
+- Performance testing.
+- Accessibility.
+- Deployment.
+- Monitoring.
+- Backups.
+
+---
+
+# 26. IMPORTANT INSTRUCTIONS FOR ANTIGRAVITY
+
+Do not attempt to implement every feature in one uncontrolled code change.
+
+Work in phases.
+
+For every phase:
+
+1. Inspect the existing code.
+2. Explain the planned changes.
+3. Identify affected files.
+4. Implement the changes.
+5. Run relevant tests.
+6. Fix errors.
+7. Verify functionality.
+8. Update the project documentation.
+9. Report what is complete and what remains.
+
+Maintain:
+- A project roadmap.
+- A development changelog.
+- An API documentation file.
+- A database schema document.
+- A setup guide.
+- A deployment guide.
+- A security checklist.
+- A testing report.
+
+Never:
+- Delete working functionality unnecessarily.
+- Replace real API calls with fake data.
+- Invent scholarship information.
+- Create fake user activity.
+- Fake analytics.
+- Fake testimonials.
+- Fake partnerships.
+- Display fabricated statistics.
+- Disable security protections just to make tests pass.
+- Claim a feature is complete when it is only a UI mockup.
+
+If a feature is too large, divide it into smaller implementation tasks.
+
+Use Windows PowerShell commands where terminal instructions are needed.
+
+---
+
+# 27. FIRST TASK — START NOW
+
+Do not start by redesigning the entire website.
+
+First perform a complete audit of the existing Bharat Connect project.
+
+Then produce:
+
+1. Existing architecture summary.
+2. Current frontend status.
+3. Current backend status.
+4. Database status.
+5. Authentication status.
+6. Missing functionality.
+7. Existing bugs.
+8. Security concerns.
+9. Recommended implementation sequence.
+10. Estimated complexity of each phase.
+
+After the audit, begin with Priority 1: complete registration, login, admin bootstrap and the full student-to-admin workflow.
+
+Do not move to community, advanced SEO or growth features until the core platform works reliably.
+
+**Final product goal:**
+
+Build Bharat Connect into a trusted, useful and engaging student platform that helps people discover educational opportunities, find scholarships, learn useful skills, connect with other students and make better decisions about their future.
+
+The platform should create genuine value first. Traffic, trust, brand recognition and growth should follow from that value.

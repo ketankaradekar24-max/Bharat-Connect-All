@@ -1,0 +1,2222 @@
+# BHARAT CONNECT — COMPLETE PRODUCT MASTER PROMPT
+
+## ROLE
+
+Act as an elite product architect, senior full-stack engineer, UX/UI designer, design systems specialist, Indian public-services researcher, database architect, security engineer, accessibility expert, and QA engineer.
+
+Your task is to transform my existing project **Bharat Connect** into a comprehensive, professional, premium-quality, genuinely useful digital platform for Indian students, citizens, parents, job seekers, professionals, businesses, and communities.
+
+Do not treat this as a simple website redesign or college project.
+
+Treat Bharat Connect as a real product intended for public launch, real users, long-term development, trust, usability, scalability, and sustainable growth.
+
+---
+
+# 1. PRODUCT VISION
+
+## Bharat Connect
+
+**Opportunities, Services and Guidance — All in One Place.**
+
+Bharat Connect is an independent digital discovery and guidance platform that helps people in India discover opportunities, understand public services, find education pathways, access official resources, prepare applications, track progress, and understand what they should do next.
+
+The platform should answer:
+
+> **Given my situation, what opportunities and services can I access, what do I need, and what should I do next?**
+
+The platform must combine:
+
+- Scholarships
+- Education
+- Entrance examinations
+- University admissions
+- College discovery
+- Counselling
+- Government services
+- Documents and certificates
+- Government schemes
+- Jobs
+- Internships
+- Career guidance
+- Skill development
+- Business support
+- Financial education
+- Health and public services
+- Agriculture
+- Community
+- Application guidance
+- Personal tracking
+- Reminders
+- Learning resources
+
+Bharat Connect must become more than a directory of links.
+
+It should help users move from:
+
+**Discovery → Understanding → Preparation → Application → Tracking → Completion**
+
+---
+
+# 2. CRITICAL INSTRUCTION — AUDIT THE EXISTING PROJECT FIRST
+
+Before making changes, inspect the complete existing project.
+
+Do not blindly rewrite the project.
+
+Inspect:
+
+- Frontend structure
+- Backend structure
+- Existing routes
+- Existing components
+- Database models
+- Database migrations
+- Authentication
+- Admin functionality
+- API endpoints
+- Existing UI
+- Existing services
+- Existing exam database
+- Scholarship database
+- Existing content
+- Existing links
+- Existing functionality
+- Existing bugs
+- Existing unfinished features
+
+The current project uses an existing architecture.
+
+### Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React
+
+### Backend
+
+- Flask
+- Python
+- SQLAlchemy
+- Flask-Migrate
+- Flask-JWT-Extended
+- Flask-CORS
+- Flask-Limiter
+
+### Database
+
+- MySQL
+
+Preserve the existing technology stack unless a specific technical reason requires a change.
+
+Do not unnecessarily replace the working backend, authentication, database, or frontend.
+
+## First create an audit
+
+Identify:
+
+- Completed features
+- Partially completed features
+- Missing features
+- Broken functionality
+- Empty categories
+- Missing content
+- Broken routes
+- Missing official links
+- Unverified links
+- Missing database structures
+- UI inconsistencies
+- Security problems
+- Responsive design problems
+- Missing user flows
+
+Create a prioritized implementation plan.
+
+Then begin implementing the plan systematically.
+
+Do not stop after producing an audit report.
+
+---
+
+# 3. SIGNATURE UI/UX — ORIGINAL PREMIUM DESIGN
+
+This is one of the highest priorities.
+
+I want Bharat Connect to have a distinctive, premium, beautiful, original visual identity.
+
+It must not look like a generic AI-generated website.
+
+Do not use common AI website patterns:
+
+- Purple gradient backgrounds
+- Glowing cards
+- Excessive glassmorphism
+- Neon effects
+- Random floating blobs
+- Artificial futuristic illustrations
+- Generic SaaS templates
+- Excessive rounded cards
+- Repetitive card layouts
+- Oversized hero typography
+- Unnecessary animations
+- Generic dashboard designs
+- Random decorative elements
+- Gradient on every component
+
+## Design goal
+
+Create a visual identity that feels:
+
+- Premium
+- Elegant
+- Professional
+- Trustworthy
+- Modern
+- Original
+- Memorable
+- Accessible
+- Indian in identity without stereotypes
+- Designed by an exceptional human product design team
+
+The website should be visually recognizable as Bharat Connect.
+
+## Original design language
+
+Develop a custom visual language based on:
+
+**Connection + Discovery + Opportunity + India**
+
+Explore these concepts through:
+
+- Original geometric patterns
+- Connection-inspired visual details
+- Custom navigation design
+- Editorial composition
+- Unique section layouts
+- Distinctive typography
+- Meaningful visual hierarchy
+- Custom icon treatment
+- Carefully designed interactions
+- Subtle brand details
+
+Do not copy existing websites.
+
+Use premium products such as Linear, Stripe, Airbnb, Notion, Razorpay and other exceptional products as quality references only.
+
+## Color palette
+
+Create a sophisticated brand palette:
+
+- Deep ink/navy
+- Premium blue
+- Muted teal
+- Warm white/ivory
+- Graphite
+- Soft neutral grey
+- Restrained saffron accent
+- Carefully selected status colors
+
+Avoid excessive Indian flag colors.
+
+Use colors strategically.
+
+## Typography
+
+Use a carefully selected typography system such as:
+
+- Inter
+- Manrope
+- Plus Jakarta Sans
+
+Create hierarchy for:
+
+- Hero headings
+- Page titles
+- Section headings
+- Card titles
+- Body
+- Labels
+- Metadata
+- Numbers
+- Buttons
+
+Typography must be readable, elegant and consistent.
+
+## Visual quality
+
+Use:
+
+- Intelligent whitespace
+- Beautiful composition
+- Balanced layouts
+- Subtle shadows
+- Refined borders
+- Sophisticated surface hierarchy
+- Carefully designed buttons
+- Premium search interfaces
+- Meaningful iconography
+- Beautiful cards where appropriate
+- Custom visual components
+- Subtle micro-interactions
+
+The design must look premium without unnecessary visual effects.
+
+## Homepage
+
+Create a memorable homepage.
+
+Include:
+
+- Premium navigation
+- Brand identity
+- Search
+- Personalized discovery
+- Important categories
+- Featured opportunities
+- Trending services
+- Upcoming deadlines
+- Popular searches
+- Education
+- Jobs
+- Scholarships
+- Government services
+- Career resources
+- Community
+- Trust information
+- How Bharat Connect works
+- Footer
+
+Do not use a generic SaaS hero.
+
+Create a unique visual composition.
+
+The homepage should immediately communicate the platform's value.
+
+## Navigation
+
+Include a clear navigation structure:
+
+- Home
+- Explore
+- Exams
+- Scholarships
+- Colleges
+- Services
+- Jobs
+- Opportunities
+- Learning
+- Community
+- Dashboard
+
+Adapt navigation to desktop and mobile.
+
+Avoid overcrowded navigation.
+
+## Design consistency
+
+Create a reusable design system.
+
+Implement:
+
+- Design tokens
+- Typography
+- Colors
+- Spacing
+- Borders
+- Radius
+- Shadows
+- Responsive breakpoints
+- Buttons
+- Cards
+- Inputs
+- Search
+- Filters
+- Tabs
+- Dropdowns
+- Dialogs
+- Tables
+- Badges
+- Alerts
+- Navigation
+- Breadcrumbs
+- Pagination
+- Empty states
+- Loading states
+- Skeletons
+- Error states
+
+Customize shadcn/ui and Tailwind components. Do not leave them looking like default templates.
+
+## Responsive design
+
+Design specifically for:
+
+- Small mobile phones
+- Large mobile phones
+- Tablets
+- Laptops
+- Desktop
+
+Do not merely shrink desktop layouts.
+
+Create responsive experiences with:
+
+- Mobile navigation
+- Touch-friendly controls
+- Responsive cards
+- Appropriate typography
+- Mobile filters
+- Proper spacing
+- No horizontal overflow
+- No clipped content
+- No overlapping elements
+
+## Accessibility
+
+Aim for WCAG 2.2 AA where practical.
+
+Implement:
+
+- Keyboard navigation
+- Visible focus
+- Screen-reader-friendly labels
+- Accessible dialogs
+- Semantic HTML
+- Proper contrast
+- Touch-friendly controls
+- Reduced motion support
+- Accessible forms
+
+---
+
+# 4. BHARAT CONNECT CATEGORIES
+
+Create a complete and scalable category structure.
+
+## Main categories
+
+1. Scholarships & Education
+2. Entrance Exams
+3. University Admissions
+4. Colleges
+5. Counselling
+6. Government Services
+7. Documents & Certificates
+8. Government Schemes
+9. Jobs & Recruitment
+10. Internships & Apprenticeships
+11. Career Guidance
+12. Learning & Skills
+13. Business & Entrepreneurship
+14. Tax & Financial Information
+15. Health & Public Services
+16. Agriculture & Rural Services
+17. Passport & Visa
+18. Driving & Transport
+19. Community
+20. Resources & Guides
+
+Every category must contain meaningful content.
+
+Do not create empty category pages.
+
+Do not create category cards that lead nowhere.
+
+---
+
+# 5. COMPETITIVE EXAMS — COMPREHENSIVE COVERAGE
+
+Create a complete exam discovery platform.
+
+## Engineering
+
+### National
+
+- JEE Main
+- JEE Advanced
+- BITSAT
+- VITEEE
+- SRMJEEE
+- MET
+- AEEE
+- KIITEE
+- Other verified national engineering entrance exams
+
+### Karnataka
+
+- KCET
+- COMEDK UGET
+- Karnataka PGCET
+- Diploma-to-engineering admission pathways
+- Lateral entry
+- KEA counselling
+- Private university entrances
+- Private engineering college admission information
+- VTU-affiliated college admission information
+
+### Maharashtra
+
+- MHT CET
+- Relevant state admissions
+- Counselling
+
+### Kerala
+
+- KEAM
+- Engineering admissions
+
+### Andhra Pradesh
+
+- AP EAPCET
+- AP ECET
+- AP PGECET
+
+### Telangana
+
+- TS EAPCET
+- TS ECET
+- TS PGECET
+
+### Gujarat
+
+- GUJCET
+
+### West Bengal
+
+- WBJEE
+
+### Odisha
+
+- OJEE
+
+### Uttar Pradesh
+
+- JEE-based admissions
+- UPTAC
+
+### Tamil Nadu
+
+- TNEA
+- Relevant university admission routes
+
+### Rajasthan
+
+- REAP
+- Relevant admissions
+
+### Other states
+
+Research and include relevant verified entrance exams and admission routes for all Indian states.
+
+## Medical
+
+### Undergraduate
+
+- NEET UG
+- MBBS
+- BDS
+- BAMS
+- BHMS
+- BUMS
+- BSMS
+- Veterinary
+- Relevant medical admission pathways
+
+### Postgraduate
+
+- NEET PG
+- INI-CET
+- MD
+- MS
+- DNB
+- Relevant postgraduate medical pathways
+
+### Nursing
+
+- BSc Nursing
+- MSc Nursing
+- State nursing entrance exams
+- University nursing admission routes
+
+### Pharmacy
+
+- B.Pharm
+- Pharm.D
+- M.Pharm
+- GPAT
+- State pharmacy entrance routes
+
+### Allied Health
+
+- Physiotherapy
+- Medical laboratory technology
+- Radiology
+- Imaging
+- Occupational therapy
+- Optometry
+- Speech and hearing
+- Cardiac technology
+- Respiratory technology
+- Other allied health programs
+
+## University Admissions
+
+- CUET UG
+- CUET PG
+- Central universities
+- State universities
+- Private universities
+- Deemed universities
+- Integrated programs
+- University-specific entrance exams
+- Undergraduate admissions
+- Postgraduate admissions
+
+## Law
+
+- CLAT
+- AILET
+- MH CET Law
+- Other verified state and university law entrance examinations
+
+## Management
+
+- CAT
+- XAT
+- CMAT
+- MAT
+- ATMA
+- GMAT
+- JIPMAT
+- SNAP
+- NMAT
+- Other verified management entrance examinations
+
+## Banking
+
+- IBPS PO
+- IBPS Clerk
+- IBPS SO
+- IBPS RRB
+- SBI PO
+- SBI Clerk
+- RBI Grade B
+- RBI Assistant
+- NABARD
+- Insurance recruitment exams
+
+## Railway
+
+- RRB NTPC
+- RRB Group D
+- RRB ALP
+- RRB Technician
+- RRB JE
+- RPF
+- Other recruitment
+
+## Defence
+
+- NDA
+- CDS
+- AFCAT
+- Agniveer
+- Army recruitment
+- Navy recruitment
+- Air Force recruitment
+- Coast Guard
+- CAPF
+
+## Government Recruitment
+
+- UPSC
+- SSC
+- KPSC
+- State PSCs
+- Police
+- Teaching
+- PSU
+- Government departments
+- State recruitment
+- Central recruitment
+
+## Research & Teaching
+
+- UGC NET
+- CSIR NET
+- GATE
+- SET/SLET
+- CTET
+- State TET
+- Research fellowship exams
+- PhD entrance
+
+## Other professional exams
+
+- CA
+- CMA
+- CS
+- NIFT
+- NID
+- NATA
+- Architecture
+- ICAR
+- Agriculture
+- Hotel management
+- NCHM JEE
+- Design
+- Aviation
+- Film/media
+- Other verified professional examinations
+
+---
+
+# 6. UNIVERSITY & COLLEGE DISCOVERY
+
+Exams and universities must be separated correctly.
+
+VTU is a university, not an entrance examination.
+
+Create a dedicated **Universities & Colleges** platform.
+
+## Institution types
+
+- IIT
+- NIT
+- IIIT
+- GFTI
+- Government colleges
+- State universities
+- Private universities
+- Deemed universities
+- Autonomous colleges
+- Affiliated colleges
+- Professional colleges
+
+## Karnataka universities
+
+Include verified information about:
+
+- VTU
+- Karnataka universities
+- Engineering universities
+- Private universities
+- Autonomous colleges
+- VTU-affiliated colleges
+- Medical universities
+- Agriculture universities
+- Law universities
+
+## College discovery
+
+Users should search by:
+
+- Course
+- State
+- City
+- Institution type
+- Government/private
+- University
+- Entrance exam
+- Admission route
+- Fees, where verified
+- Specialization
+
+## College profiles
+
+Each college profile should include:
+
+- College name
+- Location
+- Institution type
+- University
+- Courses
+- Admission route
+- Entrance exams
+- Official website
+- Official admission portal
+- Eligibility
+- Fees, only verified
+- Scholarships
+- Counselling authority
+- Source
+- Last verified date
+
+Do not invent:
+
+- Rankings
+- Placement percentages
+- Ratings
+- Salaries
+- Fees
+- Accreditation
+- Facilities
+
+## College comparison
+
+Allow comparison of multiple colleges.
+
+Compare:
+
+- Courses
+- Location
+- Institution type
+- Admission route
+- Entrance requirements
+- Fees, when verified
+- Scholarships
+- Official sources
+
+---
+
+# 7. COUNSELLING & ADMISSIONS
+
+Create counselling guides for:
+
+- JoSAA
+- CSAB
+- KEA
+- MCC
+- COMEDK
+- State counselling
+- NEET counselling
+- CUET university admissions
+- University counselling
+- Private university counselling
+
+Every guide should include:
+
+1. Eligibility
+2. Registration
+3. Documents
+4. Choice filling
+5. Seat allotment
+6. Reporting
+7. Fee payment
+8. Subsequent rounds
+9. Deadlines
+10. Official portal
+
+Provide visual step-by-step guidance.
+
+---
+
+# 8. SCHOLARSHIPS — COMPLETE PLATFORM
+
+Create scholarship discovery across:
+
+- School
+- PUC
+- Diploma
+- Undergraduate
+- Postgraduate
+- Engineering
+- Medical
+- Research
+- PhD
+- Minority
+- SC
+- ST
+- OBC
+- EWS
+- Disability
+- Merit
+- Need-based
+- Private foundations
+- Corporate
+- Women
+- Sports
+- International
+- Study abroad
+- Fee reimbursement
+- Education loans
+- Government assistance
+
+## Filters
+
+- State
+- Education
+- Course
+- Category
+- Income
+- Institution
+- Deadline
+- Scholarship type
+- Amount, if verified
+
+Every listing must contain:
+
+- Name
+- Provider
+- Eligibility
+- Benefits
+- Documents
+- Application process
+- Deadline
+- Official application link
+- Source
+- Verification status
+- Last verified date
+
+---
+
+# 9. GOVERNMENT SERVICES
+
+Build a comprehensive service discovery platform.
+
+## Driving & Transport
+
+- Learner's licence
+- Permanent licence
+- Renewal
+- Duplicate licence
+- Address change
+- Name correction
+- International driving permit
+- Driving test
+- Vehicle registration
+- Transfer of ownership
+- Duplicate RC
+- NOC
+- Hypothecation removal
+- Fitness
+- Pollution certificate
+- Road tax
+- Challans
+- Traffic fines
+
+Use official Parivahan sources.
+
+## Passport
+
+- New passport
+- Renewal/reissue
+- Lost passport
+- Damaged passport
+- Minor passport
+- Address changes
+- Appointment
+- Police verification
+- Tracking
+- Documents
+
+## Visa
+
+Organize by country and purpose:
+
+- USA
+- UK
+- Canada
+- Australia
+- Germany
+- France
+- Italy
+- Japan
+- South Korea
+- Singapore
+- UAE
+- Other countries
+
+Visa types:
+
+- Tourist
+- Student
+- Work
+- Business
+- Transit
+- Family
+- Medical
+
+Provide official immigration and embassy sources.
+
+Do not guarantee visa approval.
+
+Bharat Connect is not a visa agency.
+
+## Documents & Certificates
+
+- PAN
+- Aadhaar service guidance
+- Voter ID
+- Passport
+- DigiLocker
+- Caste certificate
+- Income certificate
+- Residence
+- Domicile
+- EWS
+- Disability
+- Minority
+- Birth
+- Death
+- Marriage
+- Legal heir
+- Family member certificates
+- Name correction
+- Address correction
+- Duplicate documents
+- Educational verification
+
+## Karnataka services
+
+Include verified:
+
+- Seva Sindhu
+- SSP
+- Nadakacheri
+- KEA
+- KPSC
+- Karnataka certificates
+- Karnataka welfare schemes
+- Karnataka recruitment
+- Karnataka transport
+- Karnataka education
+- Agriculture
+- Local government services
+
+Expand state by state.
+
+---
+
+# 10. GOVERNMENT SCHEMES
+
+Organize schemes by user group.
+
+## Students
+
+- Scholarships
+- Fee reimbursement
+- Hostels
+- Education assistance
+- Skill development
+
+## Women
+
+- Education
+- Employment
+- Financial assistance
+- Entrepreneurship
+- Welfare
+
+## Farmers
+
+- Agriculture assistance
+- Crop insurance
+- Subsidies
+- Equipment
+- Loans
+- Farmer welfare
+
+## Senior citizens
+
+- Pension
+- Healthcare
+- Welfare
+- Assistance
+
+## Disability
+
+- Benefits
+- Scholarships
+- Assistive devices
+- Employment
+- Accessibility
+
+## Employment
+
+- Training
+- Skill development
+- Employment programs
+- Apprenticeships
+
+## Housing
+
+- Housing assistance
+- Affordable housing
+- Government schemes
+
+## Health
+
+- Public health
+- Insurance
+- Medical assistance
+- Government healthcare
+
+## Entrepreneurship
+
+- Startup
+- MSME
+- Funding
+- Subsidies
+- Loans
+
+Allow filters by:
+
+- State
+- Central/state
+- Eligibility
+- User group
+- Income
+- Category
+- Application status
+
+---
+
+# 11. JOBS & RECRUITMENT
+
+Include:
+
+- Central government
+- State government
+- Karnataka government
+- Banking
+- Railway
+- Defence
+- Police
+- Teaching
+- PSU
+- Private jobs
+- Freshers
+- Experienced
+- Internships
+- Apprenticeships
+- Remote jobs
+
+Every listing:
+
+- Employer
+- Job title
+- Qualification
+- Eligibility
+- Age
+- Vacancy
+- Salary/pay scale, when verified
+- Location
+- Deadline
+- Official notification
+- Application portal
+- Source
+- Verification status
+
+Create:
+
+- Search
+- Filters
+- Saved jobs
+- Job tracker
+- Deadline reminders
+
+---
+
+# 12. CAREER & LEARNING PLATFORM
+
+Include:
+
+- Programming
+- Computer science
+- Data science
+- AI
+- Machine learning
+- Cybersecurity
+- Web development
+- App development
+- Cloud
+- Digital marketing
+- Communication
+- English
+- Competitive preparation
+- Interview preparation
+- Resume building
+- Career skills
+- Financial literacy
+- Entrepreneurship
+
+## Learning resources
+
+- Free courses
+- Government courses
+- Certifications
+- Learning roadmaps
+- Practice resources
+- Beginner guides
+- Official learning platforms
+
+## Career roadmap
+
+Users select a career:
+
+- Software engineer
+- Data scientist
+- Government officer
+- Doctor
+- Lawyer
+- Banker
+- Designer
+- Entrepreneur
+- Other careers
+
+Provide:
+
+- Education
+- Exams
+- Skills
+- Courses
+- Projects
+- Certifications
+- Opportunities
+- Career steps
+
+Do not make unsupported claims about guaranteed employment.
+
+---
+
+# 13. BUSINESS & ENTREPRENEURSHIP
+
+Include:
+
+- Startup India
+- Udyam
+- MSME
+- GST guidance
+- Business registration
+- Company registration
+- Sole proprietorship
+- Partnership
+- Startup funding
+- Government loans
+- Subsidies
+- Women entrepreneurship
+- Small business
+- Trademark
+- Licences
+- FSSAI
+- Export/import
+- Business planning
+- Entrepreneurship resources
+
+Provide official links and guides.
+
+---
+
+# 14. TAX & FINANCIAL EDUCATION
+
+Include:
+
+- PAN
+- ITR basics
+- Income tax guidance
+- Tax terminology
+- Tax-saving basics
+- Government savings
+- PPF
+- NPS
+- Post Office schemes
+- Education loans
+- Government loans
+- Banking awareness
+- Financial assistance
+
+Provide educational information only.
+
+Do not give personalized regulated financial advice.
+
+---
+
+# 15. HEALTH & PUBLIC SERVICES
+
+Include:
+
+- Government hospitals
+- Health schemes
+- Ayushman Bharat information
+- Health insurance schemes
+- Public health programs
+- Emergency services
+- Blood donation resources
+- Ambulance information
+- Mental health resources
+- Government medical assistance
+
+Use authoritative sources.
+
+Do not replace medical professionals.
+
+---
+
+# 16. AGRICULTURE & RURAL SERVICES
+
+Include:
+
+- Farmer schemes
+- Crop insurance
+- Subsidies
+- Farmer registration
+- Soil testing
+- Agriculture loans
+- Market information
+- Training
+- Livestock
+- Dairy
+- Fisheries
+- Rural employment
+- Panchayat services
+
+---
+
+# 17. PERSONAL OPPORTUNITY FINDER
+
+Build a personalized opportunity discovery feature.
+
+Users can optionally create a profile containing:
+
+- Education
+- Course
+- State
+- Age range
+- Career interests
+- Skills
+- Employment status
+- Goals
+- Optional category information
+- Optional income range
+
+Based on the profile, recommend:
+
+- Scholarships
+- Exams
+- Admissions
+- Colleges
+- Jobs
+- Internships
+- Schemes
+- Skill programs
+- Courses
+
+## Matching
+
+Show clear explanations:
+
+- Why this opportunity matches
+- Eligibility criteria
+- What information is missing
+- What the user should do next
+
+Do not claim guaranteed eligibility.
+
+Use statuses:
+
+- Appears eligible
+- May be eligible
+- More information required
+- Does not appear eligible
+
+Provide explanations.
+
+Do not unnecessarily collect sensitive data.
+
+---
+
+# 18. APPLICATION JOURNEY NAVIGATOR
+
+Build guided workflows.
+
+Example:
+
+**Apply for KCET**
+
+1. Check eligibility
+2. Prepare documents
+3. Open official portal
+4. Register
+5. Complete application
+6. Verify details
+7. Submit on official portal
+8. Track important dates
+9. Download confirmation
+10. Prepare for counselling
+
+Users can:
+
+- Mark steps complete
+- Save progress
+- Continue later
+- Add notes
+- Set reminders
+
+Never claim Bharat Connect submitted an application unless an authorized integration actually exists.
+
+---
+
+# 19. DOCUMENT CHECKLIST
+
+Create reusable checklist functionality.
+
+Users can prepare:
+
+- Marks cards
+- Photograph
+- Signature
+- Income certificate
+- Caste certificate, where required
+- Residence certificate
+- Passport
+- Bank information, where required
+- Other required documents
+
+Users can:
+
+- Mark complete
+- Save progress
+- Add notes
+- Set reminders
+
+Do not require uploading sensitive documents.
+
+Never collect unnecessary Aadhaar, OTP, passwords or banking credentials.
+
+---
+
+# 20. DEADLINE CALENDAR
+
+Create a unified calendar containing:
+
+- Scholarship deadlines
+- Exam registration
+- Exams
+- Counselling
+- Job applications
+- Appointments
+- Renewals
+- Personal reminders
+
+Display:
+
+- Upcoming
+- This week
+- This month
+- Closing soon
+- Past deadlines
+
+Allow users to add reminders.
+
+Only use verified dates.
+
+---
+
+# 21. USER DASHBOARD
+
+Create a personalized practical dashboard.
+
+Include:
+
+- Welcome
+- What should I do next?
+- Personalized opportunities
+- Saved scholarships
+- Saved exams
+- Saved colleges
+- Saved jobs
+- Saved services
+- Application tracker
+- Checklist progress
+- Upcoming deadlines
+- Reminders
+- Recently viewed
+- Notes
+- Profile progress
+
+Avoid unnecessary statistics.
+
+The dashboard should help users take action.
+
+---
+
+# 22. COLLEGE COMPARISON
+
+Allow students to compare colleges.
+
+Compare:
+
+- Course
+- Location
+- Government/private
+- University
+- Admission pathway
+- Entrance examination
+- Fees, when verified
+- Scholarships
+- Official sources
+
+Never invent rankings, placement statistics or reviews.
+
+---
+
+# 23. EDUCATION COST PLANNER
+
+Create a calculator.
+
+Users can enter:
+
+- Tuition
+- Hostel
+- Food
+- Travel
+- Books
+- Other expenses
+
+Calculate:
+
+- Total estimated cost
+- Annual cost
+- Scholarship contribution
+- Family contribution
+- Estimated remaining amount
+- Loan requirement
+
+Clearly mark all estimates.
+
+---
+
+# 24. RESUME BUILDER
+
+Create a professional resume builder.
+
+Include:
+
+- Personal information
+- Education
+- Skills
+- Projects
+- Experience
+- Internship
+- Certifications
+- Achievements
+
+Provide professional templates and PDF export.
+
+---
+
+# 25. INTERVIEW & CAREER PREPARATION
+
+Include:
+
+- Technical questions
+- HR questions
+- Interview preparation
+- Resume feedback
+- Mock interview experience
+- Coding preparation
+- Communication skills
+- Career guidance
+
+---
+
+# 26. COMMUNITY
+
+Build a genuine community platform.
+
+Include:
+
+- Questions
+- Discussions
+- Replies
+- Helpful votes
+- Accepted answers
+- Bookmarks
+- Reporting
+- Moderation
+
+Categories:
+
+- Scholarships
+- Exams
+- College
+- Career
+- Government services
+- Jobs
+- Learning
+
+Avoid spam and misinformation.
+
+---
+
+# 27. MULTILINGUAL ACCESSIBILITY
+
+Start with:
+
+- English
+- Kannada
+- Hindi
+
+Build architecture for future Indian languages.
+
+Include:
+
+- Simple language mode
+- Clear explanations
+- Accessible navigation
+- Readable fonts
+- Large text options
+- High contrast
+- Keyboard support
+- Screen-reader support
+
+Consider voice search and text-to-speech in future phases.
+
+---
+
+# 28. TRUST, VERIFICATION & SCAM PROTECTION
+
+Every important listing should have:
+
+- Source
+- Official link
+- Verification status
+- Last verified date
+- Next review date, where appropriate
+
+Labels:
+
+- Official Government
+- Official University
+- Official Exam Authority
+- Verified Source
+- Third-party resource
+- Verification pending
+
+Create a Scam Alert Center covering:
+
+- Fake scholarships
+- Fake jobs
+- Fake recruitment
+- Fake admission agents
+- Payment scams
+- Fake visa agents
+- Fraudulent government websites
+
+Users should be able to report incorrect information.
+
+---
+
+# 29. COMPLETE LINK AUDIT
+
+Perform a full link audit across the entire website.
+
+Inspect:
+
+- Internal routes
+- External URLs
+- Official portals
+- Application links
+- Source links
+- Notification links
+- Footer links
+- Social links
+- Buttons
+- Search results
+- Cards
+- Navigation
+- Forms
+
+Find:
+
+- Broken links
+- 404s
+- Redirects
+- Incorrect URLs
+- Missing links
+- Placeholder links
+- `href="#"` links
+- Dead buttons
+- Wrong routes
+- Blank pages
+- Incorrect external destinations
+- Unverified official links
+
+## Fix all issues where possible.
+
+For missing official links:
+
+Research the correct official URL.
+
+Never guess.
+
+For links that cannot be verified:
+
+Clearly mark:
+
+**Official link not verified.**
+
+## Link status
+
+- Verified reachable
+- Verified official
+- Redirected
+- Verification blocked
+- Manual verification required
+- Broken confirmed
+- Missing
+
+Do not claim a link is verified if it has not actually been checked.
+
+Create an audit report.
+
+---
+
+# 30. CONTENT RESEARCH & ACCURACY
+
+Research information using authoritative sources.
+
+Prioritize:
+
+- Government portals
+- Official departments
+- Exam authorities
+- Universities
+- Counselling authorities
+- Official notifications
+- Official recruitment portals
+- Official application websites
+
+Never fabricate:
+
+- Scholarships
+- Deadlines
+- Amounts
+- Eligibility
+- Fees
+- Exam dates
+- Vacancies
+- University information
+- Counselling rules
+- Application links
+- Official approval
+- Partnerships
+- Testimonials
+- Statistics
+
+If information is unavailable:
+
+**Information not yet verified.**
+
+Do not publish unverified information as verified.
+
+---
+
+# 31. SERVICE GUIDE TEMPLATE
+
+Every service should follow a consistent structure:
+
+- Service title
+- Overview
+- Who can apply
+- Eligibility
+- Documents
+- Step-by-step instructions
+- Fees, if verified
+- Application website
+- Official authority
+- Appointment information
+- Tracking guidance
+- Common mistakes
+- FAQs
+- Source
+- Verification status
+- Last verified
+
+---
+
+# 32. EXAM GUIDE TEMPLATE
+
+Every examination should include:
+
+- Exam name
+- Full name
+- Category
+- Conducting authority
+- Purpose
+- Eligibility
+- Qualification
+- Age limit, where applicable
+- Exam pattern
+- Syllabus
+- Important dates
+- Registration
+- Fee, if verified
+- Documents
+- Application process
+- Admit card
+- Preparation resources
+- Previous papers
+- Result
+- Counselling
+- Official website
+- Official notification
+- Verification date
+
+---
+
+# 33. ADMIN DASHBOARD
+
+Create a professional admin system.
+
+Admins should be able to manage:
+
+- Scholarships
+- Exams
+- Colleges
+- Universities
+- Jobs
+- Internships
+- Services
+- Schemes
+- Guides
+- Courses
+- Categories
+- Sources
+- State data
+- Users
+- Reports
+- Verification
+- Publishing
+
+Features:
+
+- Create
+- Edit
+- Verify
+- Publish
+- Unpublish
+- Archive
+- Search
+- Filters
+- Review queue
+- Verification history
+- Link status
+- Next review dates
+
+Include an audit log.
+
+---
+
+# 34. DATABASE ARCHITECTURE
+
+Create scalable database structures.
+
+Do not hardcode all platform content into frontend components.
+
+Design reusable structures for:
+
+- Categories
+- Subcategories
+- Exams
+- Universities
+- Colleges
+- Courses
+- Admissions
+- Counselling
+- Scholarships
+- Jobs
+- Internships
+- Services
+- Schemes
+- Resources
+- Sources
+- States
+- Authorities
+- Deadlines
+- Verification
+- Users
+- Profiles
+- Saved items
+- Reminders
+- Application trackers
+- Checklists
+- Community
+- Reports
+
+Each content record should support:
+
+- Unique ID
+- Title
+- Category
+- Description
+- Eligibility
+- Documents
+- Steps
+- Official URLs
+- Sources
+- Authority
+- Jurisdiction
+- State
+- Deadline
+- Fees
+- Status
+- Verification
+- Last verified
+- Next review
+- Created by
+- Updated by
+
+Use migrations safely.
+
+Do not destroy existing database data.
+
+---
+
+# 35. SECURITY & PRIVACY
+
+Implement appropriate security.
+
+Never collect unnecessary:
+
+- OTPs
+- Government passwords
+- Banking passwords
+- Aadhaar OTPs
+- Payment credentials
+
+Sensitive document upload must not be enabled until secure storage, access controls, validation, malware scanning, retention and deletion controls exist.
+
+Protect:
+
+- Authentication
+- Admin
+- User data
+- API
+- Rate limiting
+- Forms
+- File handling
+- Sessions
+- JWT
+- Database
+
+Do not claim legal or regulatory compliance without actual review.
+
+Bharat Connect is an independent platform.
+
+Never imply:
+
+- Government ownership
+- Government approval
+- Government partnership
+- Official agency status
+
+unless explicitly and legitimately established.
+
+---
+
+# 36. SEO & PUBLIC DISCOVERY
+
+Make public pages discoverable.
+
+Implement:
+
+- SEO titles
+- Meta descriptions
+- Structured content
+- Canonical URLs
+- Sitemap
+- Robots
+- Shareable pages
+- Search-friendly URLs
+- Proper heading structure
+- Social preview metadata
+
+Create useful content pages such as:
+
+- How to apply for KCET
+- KCET documents checklist
+- NEET admission guide
+- Scholarship eligibility guides
+- Passport application guide
+- Driving licence guide
+- Karnataka certificate guides
+
+Only publish accurate information.
+
+Do not create low-quality duplicate SEO pages.
+
+---
+
+# 37. GROWTH & REAL USER ENGAGEMENT
+
+Build growth through genuine usefulness.
+
+Potential features:
+
+- Share opportunity
+- Share checklist
+- Share guides
+- Referral system
+- College ambassadors
+- Student communities
+- Useful educational content
+- Local outreach
+- SEO
+- Social media content
+- College outreach
+
+Do not fabricate:
+
+- Traffic
+- Users
+- Testimonials
+- Engagement
+- Statistics
+- Partnerships
+
+Use real analytics.
+
+---
+
+# 38. ANALYTICS
+
+Implement privacy-conscious real analytics.
+
+Track meaningful events such as:
+
+- Page views
+- Unique visitors
+- Searches
+- Search results
+- Opportunity views
+- Saves
+- Registrations
+- Applications tracked
+- Reminder usage
+- Guide completion
+- Link clicks
+
+Clearly distinguish:
+
+- Page views
+- Unique visitors
+- Registered users
+- Active users
+- Returning users
+
+Never display fake analytics.
+
+---
+
+# 39. IMPLEMENTATION ROADMAP
+
+Do not attempt to implement the entire platform in one uncontrolled operation.
+
+Maintain a master checklist and progress tracking.
+
+## PHASE 1 — AUDIT & FOUNDATION
+
+- Inspect existing project
+- Audit frontend
+- Audit backend
+- Audit database
+- Audit routes
+- Audit functionality
+- Audit links
+- Identify missing content
+- Create roadmap
+
+## PHASE 2 — PREMIUM DESIGN SYSTEM
+
+- Brand identity
+- Design tokens
+- Typography
+- Navigation
+- Components
+- Responsive layout
+- Homepage
+- Global UI
+
+## PHASE 3 — EDUCATION PLATFORM
+
+- Exams
+- Engineering
+- Medical
+- University admissions
+- Colleges
+- Private universities
+- State exams
+- Counselling
+- Scholarships
+- College comparison
+
+## PHASE 4 — PUBLIC SERVICES
+
+- Documents
+- Driving
+- Passport
+- Visa
+- Government schemes
+- Karnataka services
+- State services
+
+## PHASE 5 — CAREER
+
+- Jobs
+- Internships
+- Career roadmap
+- Learning
+- Resume
+- Interview preparation
+- Skill tracking
+
+## PHASE 6 — PERSONALIZATION
+
+- Opportunity finder
+- Dashboard
+- Application tracker
+- Checklists
+- Calendar
+- Reminders
+- Saved collections
+
+## PHASE 7 — ADDITIONAL PLATFORMS
+
+- Business
+- Tax
+- Health
+- Agriculture
+- Community
+- Scam alerts
+- Local discovery
+
+## PHASE 8 — ADMIN & CONTENT
+
+- Admin
+- Content management
+- Verification
+- Sources
+- Link management
+- Review workflows
+
+## PHASE 9 — TESTING
+
+- Frontend
+- Backend
+- Database
+- API
+- Routes
+- Search
+- Filters
+- Forms
+- Authentication
+- Admin
+- Link testing
+- Responsive
+- Accessibility
+- Security
+
+## PHASE 10 — LAUNCH READINESS
+
+- Production configuration
+- Secure environment variables
+- Database backups
+- Error handling
+- Logging
+- Monitoring
+- Analytics
+- SEO
+- Performance
+- Privacy
+- Terms
+- Disclaimer
+- Contact
+- Support
+
+---
+
+# 40. FINAL QUALITY STANDARD
+
+Before declaring the platform complete, verify:
+
+### Functionality
+
+- Every major category works
+- Every route works
+- Every search works
+- Every filter works
+- Every button works
+- Every form works
+- Saving works
+- Tracking works
+- Reminders work
+- Admin works
+
+### Content
+
+- Categories are populated
+- Official sources exist
+- Links are checked
+- No fake information
+- Dates are verified
+- Missing data is clearly identified
+
+### Design
+
+- Premium
+- Original
+- Consistent
+- Professional
+- Responsive
+- Accessible
+- Visually memorable
+
+### Security
+
+- Authentication
+- Authorization
+- Privacy
+- Rate limiting
+- Sensitive data protection
+- Admin security
+
+### Quality
+
+- No broken pages
+- No blank routes
+- No dead buttons
+- No broken links
+- No unnecessary console errors
+- No horizontal overflow
+- No overlapping UI
+- No fake features
+
+---
+
+# FINAL INSTRUCTION
+
+Bharat Connect must not become a huge collection of incomplete category cards.
+
+Build a platform that genuinely helps users.
+
+The most important experience is:
+
+**Discover → Understand → Prepare → Apply → Track → Complete**
+
+Make the website exceptionally useful, trustworthy, visually premium, original, professional, accessible, and technically reliable.
+
+First audit the existing implementation.
+
+Then build systematically.
+
+Preserve working features.
+
+Do not invent content.
+
+Do not fake functionality.
+
+Do not claim completion without testing.
+
+Maintain a progress checklist and clearly report:
+
+- What is completed
+- What is partially completed
+- What remains
+- What was tested
+- What problems were found
+- What needs manual verification
+
+Build Bharat Connect as a serious real-world product—not merely a beautiful demo website.

@@ -1,0 +1,6 @@
+{
+  "name": "Bharat Connect",
+  "description": "Independent student platform for discovering verified scholarships, checking eligibility, tracking applications, and accessing education resources across India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
